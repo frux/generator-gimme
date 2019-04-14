@@ -1,0 +1,21 @@
+{
+  "name": "generator-gimme",
+  "version": "0.0.1",
+  "description": "My generators",
+  "main": "index.js",
+  "files": [
+    "app",
+    "dotfiles"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "frux <qdinov@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "yeoman-generator": "^3.2.0"
+  }
+}
