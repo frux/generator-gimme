@@ -19,3 +19,9 @@ Let you create any of dotfiles below:
 ```
 yo gimme:dotfiles
 ```
+
+### typescript
+Add typescript support to your project
+```
+yo gimme:typescript
+```
