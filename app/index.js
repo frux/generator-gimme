@@ -1,7 +1,8 @@
 const Generator = require('yeoman-generator');
 
 const GENERATORS = {
-	dotfiles: 'dotfiles'
+	dotfiles: 'dotfiles',
+	typescript: 'typescript'
 };
 
 module.exports = class extends Generator {
@@ -26,7 +27,7 @@ module.exports = class extends Generator {
 
 	writing() {
 		this.answers.generators.forEach(generator => {
-			this.composeWith(`ziggurat:${generator}`)
+			this.composeWith(`gimme:${generator}`)
 		});
 	}
 };
